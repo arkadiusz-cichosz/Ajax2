@@ -3,11 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Chuck Joke</title>
+		<title>Quote Machine</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<button id="get-joke">"Random joke"</button>
-		<p id="joke"></p>
-		<script src="js/ajax1.js" type="text/javascript" charset="utf-8" async defer></script>
+		<main>
+			<header class="machine">
+				<h1>Random quote machine</h1>
+			</header>
+			<section class="box">
+				<div class="quote">
+					<p></p>
+				</div>
+				<div class="author">
+					<h2></h2>	
+				</div>
+				<div class="button">
+					<button class="trigger btn btn-lg btn-warning">"Random quote"</button>
+					<a href="#" target="_blank" class="tweet"><i class="fa fa-lg fa-twitter"></i> Tweet</a>
+				</div>	
+			</section>
+		</main>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/4cf9c037bf.js"></script>
+		<script src="js/ajax2.js" type="text/javascript" charset="utf-8" async defer></script>
 	</body>
 </html>

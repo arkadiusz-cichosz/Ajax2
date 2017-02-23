@@ -1,0 +1,38 @@
+body {
+	color: white;
+	text-align: center;
+}
+
+main {
+	background-color: blue;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+.author h2 {
+	font-size: 1.2em;
+}
+
+.tweet {
+	display: block;
+	font-size: 1.8em;
+	margin: 2% auto;
+}
+
+.machine, .tweet, .button {
+	padding: 4% 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	opacity: 0.9;
+}	
